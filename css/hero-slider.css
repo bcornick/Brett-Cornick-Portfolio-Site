@@ -3,7 +3,9 @@
 Primary style
 
 -------------------------------- */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -133,7 +135,7 @@ Main Components
     font-weight: 600;
     line-height: normal;
     background: transparent;
-    padding: .6em 1em;
+    padding: 0.6em 1em;
     border-top: none;
   }
 }
@@ -183,7 +185,8 @@ Slider
   -o-transform: translateX(-100%);
   transform: translateX(-100%);
 }
-.cd-hero-slider li.is-moving, .cd-hero-slider li.selected {
+.cd-hero-slider li.is-moving,
+.cd-hero-slider li.selected {
   /* the is-moving class is assigned to the slide which is moving outside the viewport */
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
@@ -210,7 +213,7 @@ Single slide style
   background-size: cover;
   background-repeat: no-repeat;
 }
-.cd-hero-slider li:first-of-type {
+/* .cd-hero-slider li:first-of-type {
   background-image: url(../img/slide_01.jpg);
 }
 .cd-hero-slider li:nth-of-type(2) {
@@ -218,7 +221,7 @@ Single slide style
 }
 .cd-hero-slider li:nth-of-type(3) {
   background-image: url(../img/slide_03.jpg);
-}
+} */
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
   position: absolute;
@@ -284,7 +287,8 @@ Single slide style
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.cd-hero-slider h2, .cd-hero-slider p {
+.cd-hero-slider h2,
+.cd-hero-slider p {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
   margin: 0 auto 14px;
@@ -302,7 +306,7 @@ Single slide style
 .cd-hero-slider .cd-btn {
   display: inline-block;
   padding: 1.2em 1.4em;
-  margin-top: .8em;
+  margin-top: 0.8em;
   background-color: rgba(212, 68, 87, 0.9);
   font-size: 1.3rem;
   font-weight: 700;
@@ -347,7 +351,8 @@ Single slide style
   .cd-hero-slider .cd-img-container {
     display: block;
   }
-  .cd-hero-slider h2, .cd-hero-slider p {
+  .cd-hero-slider h2,
+  .cd-hero-slider p {
     max-width: 520px;
   }
   .cd-hero-slider h2 {
@@ -363,7 +368,8 @@ Single slide style
   .cd-hero-slider .cd-half-width {
     padding-top: 250px;
   }
-  .cd-hero-slider h2, .cd-hero-slider p {
+  .cd-hero-slider h2,
+  .cd-hero-slider p {
     margin-bottom: 20px;
   }
   .cd-hero-slider h2 {
@@ -476,8 +482,10 @@ Single slide animation
     transition: opacity 0.4s 0.3s, transform 0.5s 0.3s;
   }
   .cd-hero-slider li.selected .cd-btn {
-    -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s, background-color 0.2s 0s;
-    -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s, background-color 0.2s 0s;
+    -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s,
+      background-color 0.2s 0s;
+    -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s,
+      background-color 0.2s 0s;
     transition: opacity 0.4s 0.4s, transform 0.5s 0.4s, background-color 0.2s 0s;
   }
 }
@@ -496,7 +504,10 @@ Slider navigation
   height: 55px;
   background-color: rgba(0, 1, 1, 0.5);
 }
-.cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav a {
+.cd-slider-nav nav,
+.cd-slider-nav ul,
+.cd-slider-nav li,
+.cd-slider-nav a {
   height: 100%;
 }
 .cd-slider-nav nav {
@@ -572,7 +583,7 @@ Slider navigation
   transition: background-color 0.2s;
 }
 .cd-slider-nav a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 24px;
   height: 24px;
