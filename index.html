@@ -240,23 +240,84 @@
                         <div class="wrapper">
                             <section id="first-tab-group" class="tabgroup">
                                 <div id="tab1">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sint in
-                                        itaque repellat cumque numquam iure ab officia quaerat commodi maxime vero
-                                        magnam hic obcaecati beatae suscipit! Tempora, ipsam placeat?</p>
+                                    <div class="media-box">
+                                        <div id="retainable-rss-embed"
+                                            data-rss="https://medium.com/feed/retainable,https://medium.com/feed/@brett.cornick"
+                                            data-maxcols="2" data-layout="slider" data-poststyle="external"
+                                            data-readmore=" " data-offset="-100"></div>
+                                    </div>
                                 </div>
                                 <div id="tab2">
-                                    <p>Aliquam eu ultrices risus, sed condimentum diam. Duis risus nulla, elementum
-                                        vitae nisi a, ornare maximus nisl. Morbi et vehicula est. Cras at vulputate
-                                        justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at neque
-                                        tristique
-                                        dui tempor venenatis.</p>
+                                    <div class="media-box overflow-scroll">
+                                        <a href="https://twitter.com/brett_cornick?ref_src=twsrc%5Etfw"
+                                            class="twitter-follow-button" data-show-count="false">Follow
+                                            @brett_cornick</a>
+                                        <a class="twitter-timeline" data-theme="dark"
+                                            href="https://twitter.com/brett_cornick?ref_src=twsrc%5Etfw">Tweets by
+                                            Brett Cornick</a>
+                                    </div>
                                 </div>
                                 <div id="tab3">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ligula
-                                        est,
-                                        at venenatis ex iaculis quis. Morbi sollicitudin nulla eget odio
-                                        pellentesque,
-                                        sed cursus diam iaculis.</p>
+                                    <div class="media-box overflow-scroll">
+                                        <div class="container">
+                                            <h3 class="verify">Verify: <a
+                                                    href="https://app.poap.xyz/scan/cornperson.eth"
+                                                    target="_blank">cornperson.eth</a></h3>
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/id3-finalists-2022poap.png" alt=""
+                                                        class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/id3-winners-2022poap.png" alt=""
+                                                        class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/hackfs-2022-staked-hacker-2022-logo-1658889143129.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/hackfs-2022-talk-attendee-2022-logo-1658890596076.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/devconnect-attendee-survey-2022-logo-1652120190767.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/schelling-point-amsterdam-2022-attendee-2022-logo-1649946142611.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/schelling-point-amsterdam-2022-speaker-2022-logo-1649947629574.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/desci-day-at-ethamsterdam-2022-logo-1649880692648.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/workshop-on-incentive-mechanism-validation-devconnect-amsterdam-2022-logo-1649815719339.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/holonym-desci-did-registry-launch-2022-logo-1649964431281.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="assets/images/the-first-desci-fair-at-goodwork-house-2022-logo-1649205079038.png"
+                                                        alt="" class="poap">
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img src="" alt="" class="poap">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab4">
                                     <p>Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et
@@ -268,7 +329,7 @@
                             <ul class="tabs clearfix" data-tabgroup="first-tab-group">
                                 <li><a href="#tab1" class="active">Medium</a></li>
                                 <li><a href="#tab2">Twitter</a></li>
-                                <li><a href="#tab3">POAP</a></li>
+                                <li><a href="#tab3">POAPs</a></li>
                                 <li><a href="#tab4">Portfolio</a></li>
                             </ul>
                         </div>
@@ -341,6 +402,10 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="assets/js/app.js"></script>
+
+        <!-- Embed scripts -->
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
         <script>
             $(document).ready(function () {

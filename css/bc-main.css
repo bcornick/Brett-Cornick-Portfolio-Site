@@ -1,6 +1,6 @@
 html {
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 h1,
 h2 {
@@ -10,6 +10,10 @@ h2 {
 .hidden {
   display: none;
 }
+.overflow-scroll {
+  overflow-y: scroll;
+}
+h3,
 h4,
 h5,
 p,
@@ -303,6 +307,9 @@ button.primary-button {
   background-position: center center;
 }
 
+.service-content .primary-button {
+  margin-top: 15px;
+}
 .service-content .left-text {
   background-color: rgba(0, 0, 0, 0.85);
   border: solid #ff00ff 2px;
@@ -497,6 +504,45 @@ section {
   border: solid #ff00ff 2px;
   padding: 25px 30px;
   color: #fff;
+}
+.media-box {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: solid #ff00ff 2px;
+  padding: 25px 30px;
+  color: #fff;
+  max-height: 50vh;
+}
+.media-box:hover {
+  box-shadow: 3px 3px 5px #68eaff;
+}
+.slider-post .post-title h2 {
+  transition: all 0.2s;
+}
+.slider-post .post-title h2:hover {
+  color: #68eaff !important;
+  text-decoration: underline !important;
+}
+.VueCarousel-dot button {
+  min-height: 10px;
+  min-width: 10px;
+}
+.VueCarousel-dot.VueCarousel-dot--active button {
+  background: #68eaff !important;
+}
+img.poap {
+  width: 75%;
+  margin: 10px 0px;
+}
+.verify {
+  margin-bottom: 10px;
+}
+.verify a {
+  color: #68eaff;
+  transition: all 0.2s;
+}
+.verify a:hover {
+  color: #ff00ff;
+  text-decoration: none;
 }
 .tabgroup p:hover {
   box-shadow: 3px 3px 5px #68eaff;
