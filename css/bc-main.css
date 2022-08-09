@@ -1,6 +1,6 @@
 html {
   overflow-x: hidden;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 h1,
 h2 {
@@ -516,13 +516,14 @@ section {
   padding: 25px 30px;
   color: #fff;
   max-height: 55vh;
-  min-height: 410px;
+  min-height: fit-content;
 }
 .media-box:hover {
   box-shadow: 3px 3px 5px #68eaff;
 }
 .slider-post .post-title h2 {
   transition: all 0.2s;
+  margin-top: 10px;
 }
 .slider-post .post-title h2:hover {
   color: #68eaff !important;
@@ -719,50 +720,112 @@ button.focused {
   z-index: -101;
 }
 
-@media (max-width: 767px) {
-  .banner-content {
-    padding-top: 30vh;
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body #title-video,
+  body .bg-grad-picture {
+    width: 240px;
   }
-
-  .banner-content h1 {
-    font-size: 64px;
+  body #title-pic img {
+    width: 85%;
   }
-
-  .banner-content span {
-    font-size: 24px;
+  body #glasses-pic img {
+    width: 46%;
   }
-
-  .banner-content .primary-button {
-    margin-top: 15px;
+  body .window-body {
+    padding: 0;
   }
-
-  .interest-content {
-    padding-top: 5vh;
-    text-align: center;
+  body .banner-content h1 {
+    font-size: 45px !important;
   }
-
-  .interest-content .left-text .line-dec {
-    width: 45px;
-    height: 3px;
-    background-color: #ff7d27;
-    margin: 20px auto 20px auto;
+  body .banner-content {
+    padding-top: 35vh;
   }
-
-  .interest-content .left-text ul {
-    text-align: left;
+  .tabs li {
+    margin: 10px 4px;
   }
-
-  .interest-content .interest-item {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 30px;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 30px;
+  .tabs li a {
+    padding: 10px 6px;
+    font-size: 12px;
+    border: 1px solid #fff;
+  }
+  .tabs .active {
+    border: 1px solid #68eaff;
+  }
+  body h2.death-header {
+    font-size: 1.5rem;
+  }
+  #glasses-pic {
+    left: 5px;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  body .banner-content h1 {
+    font-size: 80px;
+  }
+  body .projects-content .item .text-content h4 {
+    font-size: 19px;
+  }
+  body .projects-content .item .text-content span {
+    font-size: 16px;
+  }
+  h2.death-header {
+    font-size: 2rem;
+  }
+  #title-video,
+  .bg-grad-picture {
+    width: 433px;
+  }
+  #title-pic img {
+    width: 45%;
+  }
+  #glasses-pic img {
+    width: 25%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .interest-content .left-text {
+    margin-bottom: 30px;
+  }
+  .slider-post a.post-title h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .interest-content .primary-button {
+    margin-bottom: 20px;
+  }
+  .interest-content p,
+  .interest-content .left-text ul li {
+    font-size: 14px;
+  }
+  .interest-content .left-text,
+  .interest-content .interest-item {
+    padding: 15px 20px;
+  }
+  .projects-content .item .text-content h4 {
+    font-size: 16px;
+  }
+  .projects-content .item .text-content span {
+    font-size: 14px;
+  }
+  .slider-post .post-title h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .banner-content h1 {
+    font-size: 100px;
+  }
+  .interest-content {
+    padding-top: 7vh;
   }
 }
