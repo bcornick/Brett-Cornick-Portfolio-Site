@@ -296,7 +296,7 @@ button.primary-button {
   margin-top: 15px;
 }
 
-.service-content {
+.interest-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
@@ -307,19 +307,19 @@ button.primary-button {
   background-position: center center;
 }
 
-.service-content .primary-button {
+.interest-content .primary-button {
   margin-top: 15px;
 }
-.service-content .left-text {
+.interest-content .left-text {
   background-color: rgba(0, 0, 0, 0.85);
   border: solid #ff00ff 2px;
   padding: 25px 30px;
 }
-.service-content .left-text:hover {
+.interest-content .left-text:hover {
   box-shadow: 3px 3px 5px #68eaff;
   cursor: default;
 }
-.service-content .left-text h4 {
+.interest-content .left-text h4 {
   font-size: 24px;
   font-weight: 500;
   color: #fff;
@@ -330,29 +330,29 @@ h4,
   font-size: 18px;
 }
 
-.service-content .left-text .line-dec {
+.interest-content .left-text .line-dec {
   width: 45px;
   height: 3px;
   background-color: #68eaff;
   margin: 20px 0px 20px 0px;
 }
 
-.service-content .left-text p {
+.interest-content .left-text p {
   color: #fff;
 }
 
-.service-content .left-text ul {
+.interest-content .left-text ul {
   padding: 0;
   list-style: none;
 }
 
-.service-content .left-text ul li {
+.interest-content .left-text ul li {
   margin: 10px 0px;
   color: #fff;
   font-size: 15px;
 }
 
-.service-content .service-item {
+.interest-content .interest-item {
   background-color: rgba(0, 0, 0, 0.85);
   padding: 25px 30px;
   text-align: center;
@@ -360,16 +360,19 @@ h4,
   margin-bottom: 30px;
   border: solid #68eaff 2px;
 }
-.service-content .service-item:hover {
+.interest-content .interest-item:hover {
   box-shadow: 3px 3px 5px #fe00fe;
   cursor: default;
 }
 
-.service-content .service-item .line-dec {
+.interest-content .interest-item .line-dec {
   width: 45px;
   height: 3px;
   background-color: fuchsia;
   margin: 20px auto 15px auto;
+}
+.interest-item h4 {
+  font-size: 20px;
 }
 .projects-content {
   padding-top: 15vh;
@@ -512,7 +515,8 @@ section {
   border: solid #ff00ff 2px;
   padding: 25px 30px;
   color: #fff;
-  max-height: 50vh;
+  max-height: 55vh;
+  min-height: 410px;
 }
 .media-box:hover {
   box-shadow: 3px 3px 5px #68eaff;
@@ -534,6 +538,14 @@ section {
 img.poap {
   width: 75%;
   margin: 10px 0px;
+}
+img.sample {
+  width: 80%;
+  margin: 10px 0px;
+}
+.media-box h4 {
+  margin-bottom: 20px;
+  color: #68eaff;
 }
 .verify {
   margin-bottom: 10px;
@@ -566,8 +578,8 @@ img.poap {
 
 footer {
   text-align: center;
-  background: linear-gradient(rgba(255, 0, 255, 0) 20%, rgba(255, 0, 255, 0.2));
-  padding: 90px 0px 30px;
+  background: linear-gradient(rgba(255, 0, 255, 0), rgba(0, 32, 96, 0.3));
+  padding-bottom: 30px;
   width: 100vw;
   bottom: 0px;
   left: 0px;
@@ -667,7 +679,7 @@ footer ul li a:hover {
   height: fit-content;
   z-index: 101;
   position: absolute;
-  bottom: 2000px;
+  bottom: 1000px;
   left: 21px;
   filter: saturate(0.5);
   transition: all 1s;
@@ -724,23 +736,23 @@ button.focused {
     margin-top: 15px;
   }
 
-  .service-content {
+  .interest-content {
     padding-top: 5vh;
     text-align: center;
   }
 
-  .service-content .left-text .line-dec {
+  .interest-content .left-text .line-dec {
     width: 45px;
     height: 3px;
     background-color: #ff7d27;
     margin: 20px auto 20px auto;
   }
 
-  .service-content .left-text ul {
+  .interest-content .left-text ul {
     text-align: left;
   }
 
-  .service-content .service-item {
+  .interest-content .interest-item {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 25px 30px;
     text-align: center;
