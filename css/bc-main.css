@@ -757,6 +757,9 @@ button.focused {
     position: fixed;
     top: 10vh;
   }
+  #home-window {
+    top: 30vh;
+  }
   #glasses-pic {
     left: 5px;
   }
