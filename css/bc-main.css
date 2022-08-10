@@ -720,6 +720,9 @@ button.focused {
   z-index: -101;
 }
 
+/* XX small devices  */
+@media (max-width: 350.98px) {
+}
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body #title-video,
@@ -757,6 +760,13 @@ button.focused {
   }
   #glasses-pic {
     left: 5px;
+  }
+  .tabs-content,
+  .interest-content,
+  .projects-content,
+  .contact-content {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
