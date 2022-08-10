@@ -754,11 +754,6 @@ button.focused {
   }
   body h2.death-header {
     font-size: 1.5rem;
-    position: fixed;
-    top: 10vh;
-  }
-  #home-window {
-    top: 30vh;
   }
   #glasses-pic {
     left: 5px;
@@ -805,6 +800,13 @@ button.focused {
     background-attachment: scroll;
     background-size: cover;
     background-position: center center;
+  }
+  body h2.death-header {
+    position: fixed;
+    top: 10vh;
+  }
+  #home-window {
+    top: 30vh;
   }
 }
 
