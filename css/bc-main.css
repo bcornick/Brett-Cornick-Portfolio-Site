@@ -754,7 +754,8 @@ button.focused {
   }
   body h2.death-header {
     font-size: 1.5rem;
-    margin-top: 90px;
+    position: fixed;
+    top: 10vh;
   }
   #glasses-pic {
     left: 5px;

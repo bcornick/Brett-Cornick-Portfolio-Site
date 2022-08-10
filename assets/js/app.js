@@ -33,6 +33,7 @@ const sect2 = document.querySelector("#portfolio");
 const sect3 = document.querySelector("#our-story");
 const footer = document.querySelector("footer");
 const html = document.querySelector("html");
+const header = document.querySelector(".death-header");
 
 titleBtn.addEventListener("click", () => {
   glasses.style.bottom = "185px";
@@ -51,6 +52,7 @@ titleBtn.addEventListener("click", () => {
       top: 0,
       behavior: "smooth",
     });
+    header.classList.add("hidden");
     html.style.overflowY = "scroll";
   }, 4500);
   setTimeout(() => {
