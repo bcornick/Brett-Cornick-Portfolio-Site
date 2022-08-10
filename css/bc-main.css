@@ -795,6 +795,13 @@ button.focused {
   .slider-post a.post-title h2 {
     font-size: 1.7rem;
   }
+  .tabs-content,
+  .interest-content {
+    background-image: url(../assets/images/sect-bg-1-mobile.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
