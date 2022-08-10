@@ -515,8 +515,8 @@ section {
   border: solid #ff00ff 2px;
   padding: 25px 30px;
   color: #fff;
-  max-height: 55vh;
-  min-height: fit-content;
+  max-height: 55vh !important;
+  height: fit-content;
 }
 .media-box:hover {
   box-shadow: 3px 3px 5px #68eaff;
