@@ -311,12 +311,15 @@ button.primary-button {
   margin-top: 15px;
 }
 .interest-content .left-text {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.3);
   border: solid #ff00ff 2px;
   padding: 25px 30px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 7px;
 }
 .interest-content .left-text:hover {
-  box-shadow: 3px 3px 5px #68eaff;
+  box-shadow: 1px 1px 3px #68eaff;
   cursor: default;
 }
 .interest-content .left-text h4 {
@@ -353,15 +356,18 @@ h4,
 }
 
 .interest-content .interest-item {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 25px 30px;
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
   border: solid #68eaff 2px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 7px;
 }
 .interest-content .interest-item:hover {
-  box-shadow: 3px 3px 5px #fe00fe;
+  box-shadow: 1px 1px 3px #fe00fe;
   cursor: default;
 }
 
@@ -397,15 +403,18 @@ h4,
   margin: 15px;
   border: solid fuchsia 2px;
   color: #fff;
+  border-radius: 7px;
 }
 .projects-content .item:hover {
-  box-shadow: 3px 3px 5px #68eaff;
+  box-shadow: 1px 1px 3px #68eaff;
 }
 
 .projects-content .item .text-content {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 20px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 
 .projects-content .item .text-content h4 {
@@ -511,15 +520,18 @@ section {
   color: #fff;
 }
 .media-box {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.3);
   border: solid #ff00ff 2px;
   padding: 25px 30px;
   color: #fff;
   max-height: 55vh !important;
   height: fit-content;
+  border-radius: 7px;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
 .media-box:hover {
-  box-shadow: 3px 3px 5px #68eaff;
+  box-shadow: 1px 1px 3px #68eaff;
 }
 .slider-post .post-title h2 {
   transition: all 0.2s;
