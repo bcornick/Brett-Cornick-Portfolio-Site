@@ -393,7 +393,7 @@ h4,
 #resume-btn:hover {
   background-color: rgba(0, 0, 0, 0.85);
   color: fuchsia;
-  box-shadow: 3px 3px 5px #fe00fe;
+  box-shadow: 2px 2px 3px #fe00fe;
 }
 .projects-content .item img {
   width: 100%;
@@ -501,6 +501,7 @@ section {
   font-size: 16px;
   padding: 10px 15px;
   border: 2px solid #fff;
+  border-radius: 5px;
   transition: all 0.2s;
 }
 
